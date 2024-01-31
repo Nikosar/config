@@ -1,13 +1,4 @@
-vim.cmd [[
-set autoindent
-set expandtab
-set shiftwidth=2
-set smartindent
-set softtabstop=2
-set tabstop=2
-]]
-
-vim.g.mapleader = " "
+require("settings")
 
 local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
 if not vim.loop.fs_stat(lazypath) then
