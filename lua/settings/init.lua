@@ -17,8 +17,8 @@ set updatetime:50
 
 vim.g.mapleader = " "
 
---  delete without copy
 vim.keymap.set({"n", "v"}, "<leader>y", [["+y]])
+--  delete without copy
 vim.keymap.set({"n", "v"}, "<leader>d", [["_d]])
 
 vim.keymap.set("i", "<c-c>", "<esc>")
